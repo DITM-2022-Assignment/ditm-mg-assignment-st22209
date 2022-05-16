@@ -1,0 +1,16 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar li {
+    padding: 50px;
+    list-style-type: none;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: red;
+    font-size: 30px;
+}
