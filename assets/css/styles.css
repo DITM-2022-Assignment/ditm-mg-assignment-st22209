@@ -10,7 +10,21 @@
 }
 
 .navbar li a {
-    text-decoration: none;
     color: red;
     font-size: 30px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.navbar-image-div {
+    background-image: url("../images/image3.jpg");
+    height: 420px;
+    filter: blur(5px);
+    background-position: center;
+    width: 100%;
 }
