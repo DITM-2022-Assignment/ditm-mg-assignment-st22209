@@ -1,11 +1,11 @@
-body {
+/* body {
   transition: opacity 10s;
   opacity: 1;
 }
 
 body:hover {
   opacity: 0;
-}
+} */
 
 .top-div {
     position: relative;
@@ -16,7 +16,7 @@ body:hover {
 }
 
 .top-div::before {
-    background-image: url("../images/background.png");
+    background-image: url("../images/image10.jpg");
     filter: blur(7px);
     content: "";
     position: absolute;
@@ -30,8 +30,9 @@ body:hover {
   position: relative;
   text-align: center;
   top: 110px;
-  font-family: "Open Sans Condensed";
+  font-family: "Verdana";
   font-size: 70px;
+  color: white;
 }
 
 .nav-bar {
@@ -76,9 +77,4 @@ body:hover {
 
 .nav-bar li a:hover {
     color: rgb(68, 68, 68);
-}
-
-.lmao {
-    height: 100vw;
-    width: 100vw;
 }
