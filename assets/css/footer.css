@@ -1,0 +1,44 @@
+.page-footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 40vh;
+    box-shadow: 5px 5px 20px 5px #888888;
+    font-family: "Verdana", sans-serif;
+}
+
+.page-footer .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 6vw;
+    top: 6vh;
+    justify-content: space-between;
+}
+
+.page-footer .footer-content .box {
+    width: 23%;
+}
+
+.page-footer .footer-content .topic {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.page-footer .footer-content .right a {
+    line-height: 32px;
+}
+
+.page-footer a {
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: white;
+}
+
+.page-footer a:hover {
+    color: #eb2f06;
+}
+
+.page-footer .right a {
+    font-size: 20px;
+}
