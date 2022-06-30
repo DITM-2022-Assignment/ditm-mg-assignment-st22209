@@ -1,0 +1,8 @@
+/* __init__.py but for css */
+
+@import "./components/footer.css";
+@import "./components/nav_bar.css";
+
+.placeholder-div-home {
+    height: 50vh;
+}

@@ -14,13 +14,12 @@ body::-webkit-scrollbar {
 }
 
 .nav-bar-div {
-    background-repeat: no-repeat;
     justify-content: center;
     width: 100vw;
     height: 50vh;
     display: flex;
     box-shadow: 5px 5px 20px 5px #888888;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/image10.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../images/image10.jpg");
 }
 .nav-bar {
     position: sticky;
