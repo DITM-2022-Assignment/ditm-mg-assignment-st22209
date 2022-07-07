@@ -1,0 +1,34 @@
+/* __init__.py but for css */
+
+@import "./components/footer.css";
+@import "./components/nav_bar.css";
+
+body {
+    align-items: center;
+    justify-content: center;
+}
+.home-page-content-1 {
+    height: 50vh;
+    width: 75vw;
+    padding: 30px;
+    margin: 10px auto;
+    box-shadow: 5px 5px 20px 5px #888888;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(24, 31, 34);
+    display: flex;
+    column-count: 2;
+    clear: both;
+    overflow: hidden;
+}
+
+.home-page-content-1 img {
+    width: 50%;
+    height: auto;
+    margin: 10px;
+    padding-left: 10px;
+}
